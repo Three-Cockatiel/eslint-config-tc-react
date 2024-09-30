@@ -16,6 +16,6 @@ module.exports = {
   proseWrap: "preserve", // 是否保留文本换行
   htmlWhitespaceSensitivity: "css", // HTML文件中空格敏感性的配置
   vueIndentScriptAndStyle: false, // Vue文件中缩进<script>和<style>标签中的内容
-  // endOfLine: "lf", // 文件行尾的换行符类型 window实在没解决
+  endOfLine: "auto", // 文件行尾的换行符类型 window实在没解决
   embeddedLanguageFormatting: "auto", // 是否自动格式化嵌入语言（如HTML、CSS）的代码
 };

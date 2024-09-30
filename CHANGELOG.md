@@ -34,6 +34,6 @@
 - 开启endOfLine: 'lf'，注：记得调试自己的vscode调整为lf
 - 导入ts类型强制要求加type符号
 
-## 1.0.1(2024-09-30)
+## 1.0.2(2024-09-30)
 
-- 关闭endOfLine: 'lf'，注：window没有找到好的方法兼容
+- endOfLine: 'lf',更改为：endOfLine: 'auto'。注：window没有找到好的方法兼容
